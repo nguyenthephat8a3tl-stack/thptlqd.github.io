@@ -1,5 +1,4 @@
 # thptlqd.github.io
-<!doctype html>
 <html lang="vi">
 <head>
 <meta charset="utf-8">
