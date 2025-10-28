@@ -1,0 +1,91 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>THPT Lê Quý Đôn</title>
+<meta name="description" content="Trường THPT Lê Quý Đôn - thông tin, đào tạo, hoạt động và liên hệ">
+<style>
+:root{--primary:#0b5cff;--accent:#ffb703;--muted:#6b7280;--bg:#f8fafc}
+*{box-sizing:border-box}
+body{font-family:Inter, system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', Arial; margin:0; background:var(--bg); color:#111}
+header{background:linear-gradient(90deg, rgba(11,92,255,0.95), rgba(7,123,255,0.85)); color:#fff}
+.container{max-width:1100px; margin:0 auto; padding:1rem}
+.nav{display:flex; align-items:center; justify-content:space-between; gap:1rem}
+.brand{display:flex; align-items:center; gap:.75rem}
+.brand__logo{width:52px; height:52px; background:#fff; border-radius:8px; display:flex; align-items:center; justify-content:center; color:var(--primary); font-weight:700}
+nav a{color:rgba(255,255,255,0.95); text-decoration:none; margin-left:1rem}
+.hero{display:grid; grid-template-columns:1fr; gap:1rem; padding:2.25rem 0}
+.hero__content h1{font-size:2rem; margin:0 0 .5rem}
+.hero__content p{color:rgba(255,255,255,0.95); margin:0 0 1rem}
+.btn{background:#fff; color:var(--primary); padding:.6rem .9rem; border-radius:10px; text-decoration:none; font-weight:600}
+.grid{display:grid; gap:1rem}
+main{padding:2rem 0}
+.card{background:#fff; border-radius:12px; padding:1rem; box-shadow:0 6px 18px rgba(16,24,40,0.06)}
+.cards{display:grid; grid-template-columns:repeat(auto-fit, minmax(240px, 1fr)); gap:1rem}
+h2{margin:0 0 .75rem}
+.two-col{display:grid; grid-template-columns:1fr 360px; gap:1rem}
+.news-item{display:flex; gap:.75rem; align-items:flex-start}
+.news-item img{width:84px; height:64px; object-fit:cover; border-radius:8px}
+footer{padding:2rem 0; background:#0f1724; color:#cbd5e1}
+.contact-form input, .contact-form textarea {width:100%; padding:.6rem; border-radius:8px; border:1px solid #e6e9ee}
+.cta{background:linear-gradient(90deg,var(--primary),#0a8bff); color:#fff; padding:1rem 1.25rem; border-radius:12px; display:inline-block}
+@media (max-width:880px){.two-col{grid-template-columns:1fr} .hero{padding:1.25rem 0}.hero__content h1{font-size:1.5rem}}
+</style>
+</head>
+<body>
+<header>
+<div class="container">
+<div class="nav" role="navigation" aria-label="Main navigation">
+<div class="brand">
+<div class="brand__logo">
+  <img src="images/logo-lequydon.png" alt="Logo THPT Lê Quý Đôn"
+     style="width:40px; height:40px; object-fit:contain; border-radius:8px;">
+</div>
+<div>
+<div style="font-weight:700">THPT LÊ QUÝ ĐÔN</div>
+<div style="font-size:13px; color:rgba(255,255,255,0.9)">Năng động - Trách nhiệm - Thành công</div>
+</div>
+</div>
+<nav>
+<a href="#about">Giới thiệu</a>
+<a href="#academics">Đào tạo</a>
+<a href="#activities">Hoạt động</a>
+<a href="#news">Tin tức</a>
+<a href="#contact">Liên hệ</a>
+</nav>
+</div>
+<div class="hero" style="margin-top:1.25rem">
+<div class="hero__content">
+<h1>Chào mừng đến với THPT Lê Quý Đôn</h1>
+<p>Trường trung học phổ thông Lê Quý Đôn - môi trường học tập chất lượng, phát triển toàn diện về học thuật và kỹ năng.</p>
+<a class="btn" href="#about">Tìm hiểu ngay</a>
+</div>
+</div>
+</div>
+</header>
+
+
+<main class="container">
+<section id="about" class="card" aria-labelledby="about-title">
+<h2 id="about-title">Giới thiệu</h2>
+<div class="grid">
+<p>THPT Lê Quý Đôn được thành lập với mục tiêu đào tạo học sinh đạt năng lực toàn diện: kiến thức, kỹ năng và thái độ. Trường chú trọng phương pháp dạy học tích cực, phát triển tư duy phản biện, kĩ năng thực hành và hoạt động ngoại khóa phong phú.</p>
+<p><strong>Địa chỉ:</strong> Số 27, đường Trần Nhật Duật, Phường Buôn Ma Thuột, Tỉnh Đăk Lăk<br>
+<strong>Điện thoại:</strong> (02363) 733-789 / 509-789. — <strong>Email:</strong>thptlequydonbmt@gmail.com</p>
+</div>
+</section>
+
+
+<section id="academics" style="margin-top:1rem">
+<h2>Chương trình đào tạo</h2>
+<div class="cards">
+<div class="card">
+<h3>Khối khoa học tự nhiên</h3>
+<p>Chuẩn bị học sinh cho các kỳ thi đại học và nghề kỹ thuật với chương trình nâng cao Toán, Lý, Hóa.</p>
+</div>
+<div class="card">
+<h3>Khối khoa học xã hội</h3>
+<p>Tập trung phát triển năng lực ngôn ngữ, xã hội và tư duy phân tích cho những bạn yêu thích Văn, Sử, Địa.</p>
+</div>
+</html>
