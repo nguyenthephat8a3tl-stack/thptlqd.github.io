@@ -89,5 +89,3 @@ footer{padding:2rem 0; background:#0f1724; color:#cbd5e1}
 <h3>Khối khoa học xã hội</h3>
 <p>Tập trung phát triển năng lực ngôn ngữ, xã hội và tư duy phân tích cho những bạn yêu thích Văn, Sử, Địa.</p>
 </div>
-</html>
-Trường THPT Lê Quý Đôn
